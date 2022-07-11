@@ -30,16 +30,12 @@ body {
     position: absolute;
     right: -5px;
 }
-.accordion .content-container .answer {
+.answer {
+    display: none;
+    overflow: hidden;
     padding-top: 15px;
     font-size: 22px;
     line-height: 1.5;
     width: 100%;
-    height: 0px;
-    overflow: hidden;
     transition: .5s;
-}
-
-.accordion .content-container.active .answer {
-    height: 150px;
 }
